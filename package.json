@@ -1,6 +1,6 @@
 {
   "name": "charts.css",
-  "version": "1.0.0",
+  "version": "0.9.1",
   "description": "Open source CSS framework for data visualization.",
   "author": "Rami Yushuvaev",
   "homepage": "https://ChartsCSS.org/",
@@ -15,11 +15,7 @@
     "ui-component"
   ],
   "main": "dist/charts.min.css",
-  "files": [
-    "dist/charts.css",
-    "dist/charts.css.map",
-    "dist/charts.min.css"
-  ],
+  "files": ["dist/charts.css", "dist/charts.css.map", "dist/charts.min.css"],
   "scripts": {
     "build": "npm-run-all css-compile css-combine css-prefixes css-minify css-minify-fix",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents false --source-map-embed false --precision 6 src/ -o dist/",
