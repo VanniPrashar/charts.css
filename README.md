@@ -1,3 +1,7 @@
+<div align="center">
+    <img width="300" src="https://chartscss.org/assets/img/logo-animation.svg" alt="Charts.css Logo">
+</div>
+
 # Charts.css
 
 ![GitHub Version](https://img.shields.io/github/v/release/ChartsCSS/charts.css?style=for-the-badge) ![Minified Size](https://img.shields.io/bundlephobia/min/charts.css?style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/ChartsCSS/charts.css?label=GitHub%20Stars&style=for-the-badge) ![License](https://img.shields.io/github/license/ChartsCSS/charts.css?style=for-the-badge)
@@ -12,12 +16,12 @@ No dependencies. 72kb file size. Less than 6kb gzipped file size!
 
 Check the full documentation on [ChartsCSS.org](https://ChartsCSS.org/).
 
-* [Get Started](https://chartscss.org/docs/)
-* [Components](https://chartscss.org/components/)
-* [Charts](https://chartscss.org/charts/)
-* [Customization](https://chartscss.org/customization/)
-* [Development](https://chartscss.org/development/)
-* [Examples](https://chartscss.org/examples/)
+- [Get Started](https://chartscss.org/docs/)
+- [Components](https://chartscss.org/components/)
+- [Charts](https://chartscss.org/charts/)
+- [Customization](https://chartscss.org/customization/)
+- [Development](https://chartscss.org/development/)
+- [Examples](https://chartscss.org/examples/)
 
 ## Installation
 
@@ -26,13 +30,19 @@ Check the full documentation on [ChartsCSS.org](https://ChartsCSS.org/).
 Use [jsdelivr](https://www.jsdelivr.com/package/npm/charts.css) CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css"
+/>
 ```
 
 Or [unpkg](https://unpkg.com/browse/charts.css/) CDN:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/charts.css/dist/charts.min.css">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/charts.css/dist/charts.min.css"
+/>
 ```
 
 ### Package Manager
@@ -54,40 +64,45 @@ yarn add charts.css
 The data is structured using semantic HTML tags and styled using CSS classes which change the visual representation displayed to the end user.
 
 ```html
-<table class="charts-css [ column ] [ show-primary-axis show-4-secondary-axes ] [ data-spacing-4 reverse-data ]">
-
-  <caption> Front End Developer Salary </caption>
+<table
+  class="charts-css [ column ] [ show-primary-axis show-4-secondary-axes ] [ data-spacing-4 reverse-data ]"
+>
+  <caption>
+    Front End Developer Salary
+  </caption>
 
   <thead>
     <tr>
-      <th scope="col"> Year </th>
-      <th scope="col"> Income </th>
+      <th scope="col">Year</th>
+      <th scope="col">Income</th>
     </tr>
   </thead>
 
   <tbody>
     <tr>
-      <th scope="row"> 2016 </th>
-      <td style="--size: calc( 40 / 100 );"> $ 40K </td>
+      <th scope="row">2016</th>
+      <td style="--size: calc( 40 / 100 );">$ 40K</td>
     </tr>
     <tr>
-      <th scope="row"> 2017 </th>
-      <td style="--size: calc( 60 / 100 );"> $ 60K </td>
+      <th scope="row">2017</th>
+      <td style="--size: calc( 60 / 100 );">$ 60K</td>
     </tr>
     <tr>
-      <th scope="row"> 2018 </th>
-      <td style="--size: calc( 75 / 100 );"> $ 75K </td>
+      <th scope="row">2018</th>
+      <td style="--size: calc( 75 / 100 );">$ 75K</td>
     </tr>
     <tr>
-      <th scope="row"> 2019 </th>
-      <td style="--size: calc( 90 / 100 );"> $ 90K </td>
+      <th scope="row">2019</th>
+      <td style="--size: calc( 90 / 100 );">$ 90K</td>
     </tr>
     <tr>
-      <th scope="row"> 2020 </th>
-      <td style="--size: calc( 100 / 100 );"> $ 100K <br> 👑 </td>
+      <th scope="row">2020</th>
+      <td style="--size: calc( 100 / 100 );">
+        $ 100K <br />
+        👑
+      </td>
     </tr>
   </tbody>
-
 </table>
 ```
 
