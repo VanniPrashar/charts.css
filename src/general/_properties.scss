@@ -38,8 +38,7 @@ $color-vars: color, chart-bg-color;
 }
 
 // Axes + Legends
-$items-width: primary-axis-width, secondary-axes-width, data-axes-width,
-  legend-border-width;
+$items-width: primary-axis-width, secondary-axes-width, data-axes-width, legend-border-width;
 @each $w in $items-width {
   @property --#{ $variable-prefix }#{ $w } {
     syntax: "<length>";
@@ -48,8 +47,7 @@ $items-width: primary-axis-width, secondary-axes-width, data-axes-width,
   }
 }
 
-$items-style: primary-axis-style, secondary-axes-style, data-axes-style,
-  legend-border-style;
+$items-style: primary-axis-style, secondary-axes-style, data-axes-style, legend-border-style;
 @each $s in $items-style {
   @property --#{ $variable-prefix }#{ $s } {
     syntax: "<line-style>";
@@ -58,8 +56,7 @@ $items-style: primary-axis-style, secondary-axes-style, data-axes-style,
   }
 }
 
-$items-color: primary-axis-color, secondary-axes-color, data-axes-color,
-  legend-border-color;
+$items-color: primary-axis-color, secondary-axes-color, data-axes-color, legend-border-color;
 @each $c in $items-color {
   @property --#{ $variable-prefix }#{ $c } {
     syntax: "<color>";
